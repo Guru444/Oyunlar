@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config>
+        <domain includeSubdomains="true">openapi.izmir.bel.tr</domain>
+        <trust-anchors>
+            <certificates src="@raw/gsgccr3dvtlsca2020"/>
+        </trust-anchors>
+    </domain-config>
+</network-security-config>
